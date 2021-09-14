@@ -1,3 +1,9 @@
+# bookmanager v1 using SQLite
+# run below to prepare database
+# from bookmanager import db
+# db.create_all()
+# exit()
+
 import os
 
 from flask import Flask
