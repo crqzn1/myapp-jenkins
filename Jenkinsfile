@@ -16,6 +16,7 @@ pipeline {
         }
         stage('test') {
             steps {
+                sh 'python init.py'
                 sh 'python test.py'
             }
         }
