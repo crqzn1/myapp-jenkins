@@ -14,10 +14,10 @@ pipeline {
                 // sh 'whoami'
             }
         }
-        // stage('test') {
-        //     steps {
-        //         sh 'python test.py'
-        //     }
-        // }
+        stage('test') {
+            steps {
+                sh 'python test.py'
+            }
+        }
     }
 }
