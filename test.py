@@ -1,5 +1,5 @@
 import unittest
-from app import app
+from bookmanager import app
 
 class TestHello(unittest.TestCase):
     def setUp(self):
