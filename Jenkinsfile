@@ -6,7 +6,7 @@ pipeline {
                 // sh 'echo "Hello World"'
                 // sh 'python --version'
                 sh 'pip install --upgrade pip'
-                sh 'pip install -r requirements.txt'
+                sh 'pip install --user -r requirements.txt'
             }
         }
         stage('test') {
