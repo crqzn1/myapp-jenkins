@@ -5,14 +5,15 @@ pipeline {
             steps {
                 // sh 'echo "Hello World"'
                 // sh 'python --version'
-                sh 'pip install --upgrade pip'
-                sh 'pip install --user -r requirements.txt'
+                // sh 'pip install --upgrade pip'
+                // sh 'pip install --user -r requirements.txt'
+                sh 'whoami'
             }
         }
-        stage('test') {
-            steps {
-                sh 'python test.py'
-            }
-        }
+        // stage('test') {
+        //     steps {
+        //         sh 'python test.py'
+        //     }
+        // }
     }
 }
